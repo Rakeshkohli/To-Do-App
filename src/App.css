@@ -1,0 +1,103 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,  sans-serif;
+  background-color: #242424;
+}
+h1 {
+  text-align: center;
+  color: #00ccff;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+.input-container input {
+  width: 300px;
+  height: 30px;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+.input-container button {
+  width: 40px;
+  height: 32px;
+  border: none;
+  border-radius: 7px;
+  color: #656565;
+  /* background: rgb(41, 244, 119); */
+  background: linear-gradient(360deg, rgba(3,42,18,1) 0%, rgb(37, 255, 121) 50%);
+  font-size: 1.4rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.todo {
+  width: 500px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #F1FAEE;
+  padding: 0px 5px;
+  margin: 10px;
+}
+.action input[type="checkbox"] {
+  font-weight: 100;
+}
+.todo p {
+  display: flex;
+  padding: 0px 10px;
+}
+.container button {
+  background-color: rgb(37, 255, 121);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  padding: 6px;
+}
